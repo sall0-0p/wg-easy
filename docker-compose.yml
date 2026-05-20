@@ -34,6 +34,7 @@ services:
 
 networks:
   wg:
+    name: wg
     driver: bridge
     enable_ipv6: true
     ipam:
